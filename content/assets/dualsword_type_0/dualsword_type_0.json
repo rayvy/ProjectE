@@ -1,0 +1,642 @@
+{
+  "version": 1,
+  "id": "dualsword_type_0",
+  "kind": "MELEE",
+  "rig": "arms_base",
+  "mount_socket": "hand.R",
+  "fps": 60.0,
+  "source_blend": "C:/Blender/Temp/PlayerArms_26140_autosave.blend",
+  "exported_unix": 1788653858,
+  "model": "res://content/assets/dualsword_type_0/dualsword_type_0.glb",
+  "anim": "",
+  "skeletons": {
+    "rig": {
+      "object": "armature",
+      "bones": [
+        "root",
+        "CTL.hand_ik.R",
+        "CTL.hand_pole.R",
+        "CTL.hand_ik.L",
+        "CTL.hand_pole.L",
+        "chest",
+        "CTL.arm_upper_ik.R",
+        "CTL.arm_lower_ik.R",
+        "CTL.arm_upper_ik.L",
+        "CTL.arm_lower_ik.L",
+        "arm_upper.R",
+        "arm_lower.R",
+        "arm_twist_1.R",
+        "arm_twist_2.R",
+        "arm_twist_3.R",
+        "arm_twist_4.R",
+        "hand.R",
+        "palm_pinky.R",
+        "pinky_1.R",
+        "pinky_2.R",
+        "pinky_3.R",
+        "palm_ring.R",
+        "ring_1.R",
+        "ring_2.R",
+        "ring_3.R",
+        "palm_middle.R",
+        "middle_1.R",
+        "middle_2.R",
+        "middle_3.R",
+        "palm_index.R",
+        "index_1.R",
+        "index_2.R",
+        "index_3.R",
+        "palm_thumb.R",
+        "thumb_1.R",
+        "thumb_2.R",
+        "SK.hand.R",
+        "arm_upper.L",
+        "arm_lower.L",
+        "arm_twist_1.L",
+        "arm_twist_2.L",
+        "arm_twist_3.L",
+        "arm_twist_4.L",
+        "hand.L",
+        "palm_pinky.L",
+        "pinky_1.L",
+        "pinky_2.L",
+        "pinky_3.L",
+        "palm_ring.L",
+        "ring_1.L",
+        "ring_2.L",
+        "ring_3.L",
+        "palm_middle.L",
+        "middle_1.L",
+        "middle_2.L",
+        "middle_3.L",
+        "palm_index.L",
+        "index_1.L",
+        "index_2.L",
+        "index_3.L",
+        "palm_thumb.L",
+        "thumb_1.L",
+        "thumb_2.L",
+        "SK.hand.L",
+        "CTL.arm_upper_fk.R",
+        "CTL.arm_lower_fk.R",
+        "CTL.hand_fk.R",
+        "CTL.arm_upper_fk.L",
+        "CTL.arm_lower_fk.L",
+        "CTL.hand_fk.L",
+        "SK.chest",
+        "SK.cam"
+      ],
+      "deform": [
+        "arm_upper.R",
+        "arm_twist_1.R",
+        "arm_twist_2.R",
+        "arm_twist_3.R",
+        "arm_twist_4.R",
+        "hand.R",
+        "palm_pinky.R",
+        "pinky_1.R",
+        "pinky_2.R",
+        "pinky_3.R",
+        "palm_ring.R",
+        "ring_1.R",
+        "ring_2.R",
+        "ring_3.R",
+        "palm_middle.R",
+        "middle_1.R",
+        "middle_2.R",
+        "middle_3.R",
+        "palm_index.R",
+        "index_1.R",
+        "index_2.R",
+        "index_3.R",
+        "palm_thumb.R",
+        "thumb_1.R",
+        "thumb_2.R",
+        "SK.hand.R",
+        "arm_upper.L",
+        "arm_twist_1.L",
+        "arm_twist_2.L",
+        "arm_twist_3.L",
+        "arm_twist_4.L",
+        "hand.L",
+        "palm_pinky.L",
+        "pinky_1.L",
+        "pinky_2.L",
+        "pinky_3.L",
+        "palm_ring.L",
+        "ring_1.L",
+        "ring_2.L",
+        "ring_3.L",
+        "palm_middle.L",
+        "middle_1.L",
+        "middle_2.L",
+        "middle_3.L",
+        "palm_index.L",
+        "index_1.L",
+        "index_2.L",
+        "index_3.L",
+        "palm_thumb.L",
+        "thumb_1.L",
+        "thumb_2.L",
+        "SK.hand.L",
+        "SK.chest",
+        "SK.cam"
+      ]
+    },
+    "asset": {
+      "object": "PROXY.dualsword_type_0",
+      "bones": [
+        "main",
+        "SK.attach",
+        "SK.grip",
+        "SK.grip_b",
+        "SK.tip",
+        "SK.edge"
+      ],
+      "deform": [
+        "main",
+        "SK.attach",
+        "SK.grip",
+        "SK.grip_b",
+        "SK.tip",
+        "SK.edge"
+      ]
+    }
+  },
+  "sockets": {
+    "hand.R": {
+      "space": "bone",
+      "bone": "SK.hand.R",
+      "owner": "rig"
+    },
+    "hand.L": {
+      "space": "bone",
+      "bone": "SK.hand.L",
+      "owner": "rig"
+    },
+    "chest": {
+      "space": "bone",
+      "bone": "SK.chest",
+      "owner": "rig"
+    },
+    "cam": {
+      "space": "bone",
+      "bone": "SK.cam",
+      "owner": "rig"
+    },
+    "attach": {
+      "space": "bone",
+      "bone": "SK.attach",
+      "owner": "asset"
+    },
+    "grip": {
+      "space": "bone",
+      "bone": "SK.grip",
+      "owner": "asset"
+    },
+    "grip_b": {
+      "space": "bone",
+      "bone": "SK.grip_b",
+      "owner": "asset"
+    },
+    "tip": {
+      "space": "bone",
+      "bone": "SK.tip",
+      "owner": "asset"
+    },
+    "edge": {
+      "space": "bone",
+      "bone": "SK.edge",
+      "owner": "asset"
+    }
+  },
+  "clips": {
+    "add_recoil": {
+      "animation": "add_recoil",
+      "actions": {
+        "asset": "add_recoil@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        16
+      ],
+      "length": 0.25,
+      "loop": "NONE",
+      "category": "ADDITIVE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Impact shake, additive",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "attack_heavy": {
+      "animation": "attack_heavy",
+      "actions": {
+        "asset": "attack_heavy@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        55
+      ],
+      "length": 0.9,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Wind-up long enough to read as commitment",
+      "events": [
+        {
+          "t": 0.5,
+          "name": "hit_open",
+          "args": {}
+        },
+        {
+          "t": 0.63333,
+          "name": "hit_close",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "attack_light_1": {
+      "animation": "attack_light_1",
+      "actions": {
+        "asset": "attack_light_1@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        30
+      ],
+      "length": 0.48333,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Combo step 1. Leave the last 6 frames cancellable",
+      "events": [
+        {
+          "t": 0.15,
+          "name": "hit_open",
+          "args": {}
+        },
+        {
+          "t": 0.21667,
+          "name": "hit_close",
+          "args": {}
+        },
+        {
+          "t": 0.36667,
+          "name": "cancel_open",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "attack_light_2": {
+      "animation": "attack_light_2",
+      "actions": {
+        "asset": "attack_light_2@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        30
+      ],
+      "length": 0.48333,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Combo step 2, entered from step 1",
+      "events": [
+        {
+          "t": 0.15,
+          "name": "hit_open",
+          "args": {}
+        },
+        {
+          "t": 0.21667,
+          "name": "hit_close",
+          "args": {}
+        },
+        {
+          "t": 0.36667,
+          "name": "cancel_open",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "attack_light_3": {
+      "animation": "attack_light_3",
+      "actions": {
+        "asset": "attack_light_3@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Combo finisher, no cancel window",
+      "events": [
+        {
+          "t": 0.23333,
+          "name": "hit_open",
+          "args": {}
+        },
+        {
+          "t": 0.35,
+          "name": "hit_close",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "attack_thrust": {
+      "animation": "attack_thrust",
+      "actions": {
+        "asset": "attack_thrust@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        32
+      ],
+      "length": 0.51667,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.2,
+          "name": "hit_open",
+          "args": {}
+        },
+        {
+          "t": 0.28333,
+          "name": "hit_close",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "block_hit": {
+      "animation": "block_hit",
+      "actions": {
+        "asset": "block_hit@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        22
+      ],
+      "length": 0.35,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "block_idle",
+      "stub": true,
+      "notes": "Impact on a held block",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "block_idle": {
+      "animation": "block_idle",
+      "actions": {
+        "asset": "block_idle@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        90
+      ],
+      "length": 1.48333,
+      "loop": "LINEAR",
+      "category": "POSE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Held while the block button is down",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "draw": {
+      "animation": "draw",
+      "actions": {
+        "asset": "draw@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        28
+      ],
+      "length": 0.45,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.01667,
+          "name": "weapon_visible",
+          "args": {}
+        },
+        {
+          "t": 0.4,
+          "name": "ready",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "holster": {
+      "animation": "holster",
+      "actions": {
+        "asset": "holster@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        24
+      ],
+      "length": 0.38333,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.33333,
+          "name": "weapon_hidden",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "idle": {
+      "animation": "idle",
+      "actions": {
+        "asset": "idle@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        120
+      ],
+      "length": 1.98333,
+      "loop": "LINEAR",
+      "category": "POSE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Guard stance",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "parry": {
+      "animation": "parry",
+      "actions": {
+        "asset": "parry@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        26
+      ],
+      "length": 0.41667,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Timed deflect, opens the enemy",
+      "events": [
+        {
+          "t": 0.05,
+          "name": "parry_open",
+          "args": {}
+        },
+        {
+          "t": 0.15,
+          "name": "parry_close",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "run": {
+      "animation": "run",
+      "actions": {
+        "asset": "run@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        28
+      ],
+      "length": 0.45,
+      "loop": "LINEAR",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "sprint_pose": {
+      "animation": "sprint_pose",
+      "actions": {
+        "asset": "sprint_pose@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        60
+      ],
+      "length": 0.98333,
+      "loop": "LINEAR",
+      "category": "POSE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "walk": {
+      "animation": "walk",
+      "actions": {
+        "asset": "walk@dualsword_type_0.prx"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "LINEAR",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    }
+  },
+  "notes": "",
+  "warnings": [
+    "no animated clips for 'dualsword_type_0' yet - stubs only",
+    "stub, not animated yet: add_recoil",
+    "stub, not animated yet: attack_heavy",
+    "stub, not animated yet: attack_light_1",
+    "stub, not animated yet: attack_light_2",
+    "stub, not animated yet: attack_light_3",
+    "stub, not animated yet: attack_thrust",
+    "stub, not animated yet: block_hit",
+    "stub, not animated yet: block_idle",
+    "stub, not animated yet: draw",
+    "stub, not animated yet: holster",
+    "stub, not animated yet: idle",
+    "stub, not animated yet: parry",
+    "stub, not animated yet: run",
+    "stub, not animated yet: sprint_pose",
+    "stub, not animated yet: walk"
+  ]
+}

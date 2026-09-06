@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "id": "grenade_frag_type_0",
+  "kind": "PROP",
+  "rig": "arms_base",
+  "mount_socket": "hand.R",
+  "fps": 60.0,
+  "source_blend": "C:/Blender/Temp/PlayerArms_26140_autosave.blend",
+  "exported_unix": 1788653858,
+  "model": "res://content/assets/grenade_frag_type_0/grenade_frag_type_0.glb",
+  "anim": "",
+  "skeletons": {
+    "rig": {
+      "object": "armature",
+      "bones": [
+        "root",
+        "CTL.hand_ik.R",
+        "CTL.hand_pole.R",
+        "CTL.hand_ik.L",
+        "CTL.hand_pole.L",
+        "chest",
+        "CTL.arm_upper_ik.R",
+        "CTL.arm_lower_ik.R",
+        "CTL.arm_upper_ik.L",
+        "CTL.arm_lower_ik.L",
+        "arm_upper.R",
+        "arm_lower.R",
+        "arm_twist_1.R",
+        "arm_twist_2.R",
+        "arm_twist_3.R",
+        "arm_twist_4.R",
+        "hand.R",
+        "palm_pinky.R",
+        "pinky_1.R",
+        "pinky_2.R",
+        "pinky_3.R",
+        "palm_ring.R",
+        "ring_1.R",
+        "ring_2.R",
+        "ring_3.R",
+        "palm_middle.R",
+        "middle_1.R",
+        "middle_2.R",
+        "middle_3.R",
+        "palm_index.R",
+        "index_1.R",
+        "index_2.R",
+        "index_3.R",
+        "palm_thumb.R",
+        "thumb_1.R",
+        "thumb_2.R",
+        "SK.hand.R",
+        "arm_upper.L",
+        "arm_lower.L",
+        "arm_twist_1.L",
+        "arm_twist_2.L",
+        "arm_twist_3.L",
+        "arm_twist_4.L",
+        "hand.L",
+        "palm_pinky.L",
+        "pinky_1.L",
+        "pinky_2.L",
+        "pinky_3.L",
+        "palm_ring.L",
+        "ring_1.L",
+        "ring_2.L",
+        "ring_3.L",
+        "palm_middle.L",
+        "middle_1.L",
+        "middle_2.L",
+        "middle_3.L",
+        "palm_index.L",
+        "index_1.L",
+        "index_2.L",
+        "index_3.L",
+        "palm_thumb.L",
+        "thumb_1.L",
+        "thumb_2.L",
+        "SK.hand.L",
+        "CTL.arm_upper_fk.R",
+        "CTL.arm_lower_fk.R",
+        "CTL.hand_fk.R",
+        "CTL.arm_upper_fk.L",
+        "CTL.arm_lower_fk.L",
+        "CTL.hand_fk.L",
+        "SK.chest",
+        "SK.cam"
+      ],
+      "deform": [
+        "arm_upper.R",
+        "arm_twist_1.R",
+        "arm_twist_2.R",
+        "arm_twist_3.R",
+        "arm_twist_4.R",
+        "hand.R",
+        "palm_pinky.R",
+        "pinky_1.R",
+        "pinky_2.R",
+        "pinky_3.R",
+        "palm_ring.R",
+        "ring_1.R",
+        "ring_2.R",
+        "ring_3.R",
+        "palm_middle.R",
+        "middle_1.R",
+        "middle_2.R",
+        "middle_3.R",
+        "palm_index.R",
+        "index_1.R",
+        "index_2.R",
+        "index_3.R",
+        "palm_thumb.R",
+        "thumb_1.R",
+        "thumb_2.R",
+        "SK.hand.R",
+        "arm_upper.L",
+        "arm_twist_1.L",
+        "arm_twist_2.L",
+        "arm_twist_3.L",
+        "arm_twist_4.L",
+        "hand.L",
+        "palm_pinky.L",
+        "pinky_1.L",
+        "pinky_2.L",
+        "pinky_3.L",
+        "palm_ring.L",
+        "ring_1.L",
+        "ring_2.L",
+        "ring_3.L",
+        "palm_middle.L",
+        "middle_1.L",
+        "middle_2.L",
+        "middle_3.L",
+        "palm_index.L",
+        "index_1.L",
+        "index_2.L",
+        "index_3.L",
+        "palm_thumb.L",
+        "thumb_1.L",
+        "thumb_2.L",
+        "SK.hand.L",
+        "SK.chest",
+        "SK.cam"
+      ]
+    },
+    "asset": {
+      "object": "PROXY.grenade_frag_type_0",
+      "bones": [
+        "base",
+        "ring",
+        "SK.attach",
+        "SK.grip",
+        "SK.pin",
+        "SK.fuse"
+      ],
+      "deform": [
+        "base",
+        "ring",
+        "SK.attach",
+        "SK.grip",
+        "SK.pin",
+        "SK.fuse"
+      ]
+    }
+  },
+  "sockets": {
+    "hand.R": {
+      "space": "bone",
+      "bone": "SK.hand.R",
+      "owner": "rig"
+    },
+    "hand.L": {
+      "space": "bone",
+      "bone": "SK.hand.L",
+      "owner": "rig"
+    },
+    "chest": {
+      "space": "bone",
+      "bone": "SK.chest",
+      "owner": "rig"
+    },
+    "cam": {
+      "space": "bone",
+      "bone": "SK.cam",
+      "owner": "rig"
+    },
+    "attach": {
+      "space": "bone",
+      "bone": "SK.attach",
+      "owner": "asset"
+    },
+    "grip": {
+      "space": "bone",
+      "bone": "SK.grip",
+      "owner": "asset"
+    },
+    "pin": {
+      "space": "bone",
+      "bone": "SK.pin",
+      "owner": "asset"
+    },
+    "fuse": {
+      "space": "bone",
+      "bone": "SK.fuse",
+      "owner": "asset"
+    }
+  },
+  "clips": {
+    "draw": {
+      "animation": "draw",
+      "actions": {
+        "asset": "draw@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        24
+      ],
+      "length": 0.38333,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.01667,
+          "name": "weapon_visible",
+          "args": {}
+        },
+        {
+          "t": 0.35,
+          "name": "ready",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "holster": {
+      "animation": "holster",
+      "actions": {
+        "asset": "holster@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        20
+      ],
+      "length": 0.31667,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.26667,
+          "name": "weapon_hidden",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "idle": {
+      "animation": "idle",
+      "actions": {
+        "asset": "idle@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        90
+      ],
+      "length": 1.48333,
+      "loop": "LINEAR",
+      "category": "POSE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "throw_hold": {
+      "animation": "throw_hold",
+      "actions": {
+        "asset": "throw_hold@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        60
+      ],
+      "length": 0.98333,
+      "loop": "LINEAR",
+      "category": "POSE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Cooking loop. Fuse is already burning",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "throw_pull": {
+      "animation": "throw_pull",
+      "actions": {
+        "asset": "throw_pull@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        30
+      ],
+      "length": 0.48333,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "throw_hold",
+      "stub": true,
+      "notes": "Pin out, spoon still held",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "throw_release": {
+      "animation": "throw_release",
+      "actions": {
+        "asset": "throw_release@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        26
+      ],
+      "length": 0.41667,
+      "loop": "NONE",
+      "category": "WEAPON",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Object leaves the hand at the event",
+      "events": [
+        {
+          "t": 0.15,
+          "name": "object_release",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "use": {
+      "animation": "use",
+      "actions": {
+        "asset": "use@grenade_frag_type_0.prx"
+      },
+      "frames": [
+        1,
+        90
+      ],
+      "length": 1.48333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "idle",
+      "stub": true,
+      "notes": "Drink, inject, read. Effect fires on the event",
+      "events": [
+        {
+          "t": 0.88333,
+          "name": "effect",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    }
+  },
+  "notes": "",
+  "warnings": [
+    "no animated clips for 'grenade_frag_type_0' yet - stubs only",
+    "stub, not animated yet: draw",
+    "stub, not animated yet: holster",
+    "stub, not animated yet: idle",
+    "stub, not animated yet: throw_hold",
+    "stub, not animated yet: throw_pull",
+    "stub, not animated yet: throw_release",
+    "stub, not animated yet: use"
+  ]
+}

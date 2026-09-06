@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "rig": "arms_base",
+  "fps": 60.0,
+  "socket_prefix": "SK.",
+  "categories": [
+    "POSE",
+    "LOCO",
+    "WEAPON",
+    "CONTEXT",
+    "MAGIC",
+    "ADDITIVE"
+  ],
+  "loop_modes": [
+    "NONE",
+    "LINEAR",
+    "PINGPONG"
+  ],
+  "assets": [
+    {
+      "id": "aks74u_type_0",
+      "kind": "WEAPON",
+      "mount_socket": "hand.R",
+      "dir": "res://content/assets/aks74u_type_0",
+      "manifest": "res://content/assets/aks74u_type_0/aks74u_type_0.json",
+      "notes": ""
+    },
+    {
+      "id": "arms_base",
+      "kind": "RIG",
+      "mount_socket": "hand.R",
+      "dir": "res://content/rig/arms_base",
+      "manifest": "res://content/rig/arms_base/arms_base.json",
+      "notes": ""
+    },
+    {
+      "id": "dagger_type_0",
+      "kind": "MELEE",
+      "mount_socket": "hand.R",
+      "dir": "res://content/assets/dagger_type_0",
+      "manifest": "res://content/assets/dagger_type_0/dagger_type_0.json",
+      "notes": ""
+    },
+    {
+      "id": "dualsword_type_0",
+      "kind": "MELEE",
+      "mount_socket": "hand.R",
+      "dir": "res://content/assets/dualsword_type_0",
+      "manifest": "res://content/assets/dualsword_type_0/dualsword_type_0.json",
+      "notes": ""
+    },
+    {
+      "id": "grenade_frag_type_0",
+      "kind": "PROP",
+      "mount_socket": "hand.R",
+      "dir": "res://content/assets/grenade_frag_type_0",
+      "manifest": "res://content/assets/grenade_frag_type_0/grenade_frag_type_0.json",
+      "notes": ""
+    },
+    {
+      "id": "hpbottle_medium_type_0",
+      "kind": "PROP",
+      "mount_socket": "hand.L",
+      "dir": "res://content/assets/hpbottle_medium_type_0",
+      "manifest": "res://content/assets/hpbottle_medium_type_0/hpbottle_medium_type_0.json",
+      "notes": ""
+    },
+    {
+      "id": "shortsword_type_0",
+      "kind": "MELEE",
+      "mount_socket": "hand.R",
+      "dir": "res://content/assets/shortsword_type_0",
+      "manifest": "res://content/assets/shortsword_type_0/shortsword_type_0.json",
+      "notes": ""
+    }
+  ],
+  "source_blend": "C:/Blender/Temp/PlayerArms_26140_autosave.blend",
+  "exported_unix": 1788653858
+}

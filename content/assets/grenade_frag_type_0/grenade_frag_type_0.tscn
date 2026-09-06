@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://addons/pf_viewmodel/pf_asset.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://content/assets/grenade_frag_type_0/grenade_frag_type_0.glb" id="2_model"]
+
+[node name="grenade_frag_type_0" type="Node3D"]
+script = ExtResource("1_script")
+manifest_path = "res://content/assets/grenade_frag_type_0/grenade_frag_type_0.json"
+
+[node name="Model" parent="." instance=ExtResource("2_model")]

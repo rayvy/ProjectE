@@ -1,0 +1,957 @@
+{
+  "version": 1,
+  "id": "arms_base",
+  "kind": "RIG",
+  "rig": "arms_base",
+  "mount_socket": "hand.R",
+  "fps": 60.0,
+  "source_blend": "C:/Blender/Temp/PlayerArms_26140_autosave.blend",
+  "exported_unix": 1788653858,
+  "model": "res://content/rig/arms_base/arms_base.glb",
+  "anim": "",
+  "skeletons": {
+    "rig": {
+      "object": "armature",
+      "bones": [
+        "root",
+        "CTL.hand_ik.R",
+        "CTL.hand_pole.R",
+        "CTL.hand_ik.L",
+        "CTL.hand_pole.L",
+        "chest",
+        "CTL.arm_upper_ik.R",
+        "CTL.arm_lower_ik.R",
+        "CTL.arm_upper_ik.L",
+        "CTL.arm_lower_ik.L",
+        "arm_upper.R",
+        "arm_lower.R",
+        "arm_twist_1.R",
+        "arm_twist_2.R",
+        "arm_twist_3.R",
+        "arm_twist_4.R",
+        "hand.R",
+        "palm_pinky.R",
+        "pinky_1.R",
+        "pinky_2.R",
+        "pinky_3.R",
+        "palm_ring.R",
+        "ring_1.R",
+        "ring_2.R",
+        "ring_3.R",
+        "palm_middle.R",
+        "middle_1.R",
+        "middle_2.R",
+        "middle_3.R",
+        "palm_index.R",
+        "index_1.R",
+        "index_2.R",
+        "index_3.R",
+        "palm_thumb.R",
+        "thumb_1.R",
+        "thumb_2.R",
+        "SK.hand.R",
+        "arm_upper.L",
+        "arm_lower.L",
+        "arm_twist_1.L",
+        "arm_twist_2.L",
+        "arm_twist_3.L",
+        "arm_twist_4.L",
+        "hand.L",
+        "palm_pinky.L",
+        "pinky_1.L",
+        "pinky_2.L",
+        "pinky_3.L",
+        "palm_ring.L",
+        "ring_1.L",
+        "ring_2.L",
+        "ring_3.L",
+        "palm_middle.L",
+        "middle_1.L",
+        "middle_2.L",
+        "middle_3.L",
+        "palm_index.L",
+        "index_1.L",
+        "index_2.L",
+        "index_3.L",
+        "palm_thumb.L",
+        "thumb_1.L",
+        "thumb_2.L",
+        "SK.hand.L",
+        "CTL.arm_upper_fk.R",
+        "CTL.arm_lower_fk.R",
+        "CTL.hand_fk.R",
+        "CTL.arm_upper_fk.L",
+        "CTL.arm_lower_fk.L",
+        "CTL.hand_fk.L",
+        "SK.chest",
+        "SK.cam"
+      ],
+      "deform": [
+        "arm_upper.R",
+        "arm_twist_1.R",
+        "arm_twist_2.R",
+        "arm_twist_3.R",
+        "arm_twist_4.R",
+        "hand.R",
+        "palm_pinky.R",
+        "pinky_1.R",
+        "pinky_2.R",
+        "pinky_3.R",
+        "palm_ring.R",
+        "ring_1.R",
+        "ring_2.R",
+        "ring_3.R",
+        "palm_middle.R",
+        "middle_1.R",
+        "middle_2.R",
+        "middle_3.R",
+        "palm_index.R",
+        "index_1.R",
+        "index_2.R",
+        "index_3.R",
+        "palm_thumb.R",
+        "thumb_1.R",
+        "thumb_2.R",
+        "SK.hand.R",
+        "arm_upper.L",
+        "arm_twist_1.L",
+        "arm_twist_2.L",
+        "arm_twist_3.L",
+        "arm_twist_4.L",
+        "hand.L",
+        "palm_pinky.L",
+        "pinky_1.L",
+        "pinky_2.L",
+        "pinky_3.L",
+        "palm_ring.L",
+        "ring_1.L",
+        "ring_2.L",
+        "ring_3.L",
+        "palm_middle.L",
+        "middle_1.L",
+        "middle_2.L",
+        "middle_3.L",
+        "palm_index.L",
+        "index_1.L",
+        "index_2.L",
+        "index_3.L",
+        "palm_thumb.L",
+        "thumb_1.L",
+        "thumb_2.L",
+        "SK.hand.L",
+        "SK.chest",
+        "SK.cam"
+      ]
+    }
+  },
+  "sockets": {
+    "hand.R": {
+      "space": "bone",
+      "bone": "SK.hand.R",
+      "owner": "rig"
+    },
+    "hand.L": {
+      "space": "bone",
+      "bone": "SK.hand.L",
+      "owner": "rig"
+    },
+    "chest": {
+      "space": "bone",
+      "bone": "SK.chest",
+      "owner": "rig"
+    },
+    "cam": {
+      "space": "bone",
+      "bone": "SK.cam",
+      "owner": "rig"
+    }
+  },
+  "clips": {
+    "button_press": {
+      "animation": "button_press",
+      "actions": {
+        "rig": "button_press@arms_base"
+      },
+      "frames": [
+        1,
+        30
+      ],
+      "length": 0.48333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Index finger, single contact",
+      "events": [
+        {
+          "t": 0.26667,
+          "name": "contact",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "climb_ledge": {
+      "animation": "climb_ledge",
+      "actions": {
+        "rig": "climb_ledge@arms_base"
+      },
+      "frames": [
+        1,
+        70
+      ],
+      "length": 1.15,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Both hands, full pull-up",
+      "events": [
+        {
+          "t": 0.23333,
+          "name": "hand_r_grab",
+          "args": {}
+        },
+        {
+          "t": 0.35,
+          "name": "hand_l_grab",
+          "args": {}
+        },
+        {
+          "t": 0.98333,
+          "name": "hand_release",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "death": {
+      "animation": "death",
+      "actions": {
+        "rig": "death@arms_base"
+      },
+      "frames": [
+        1,
+        70
+      ],
+      "length": 1.15,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Camera falls with the hands",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "door_knob": {
+      "animation": "door_knob",
+      "actions": {
+        "rig": "door_knob@arms_base"
+      },
+      "frames": [
+        1,
+        60
+      ],
+      "length": 0.98333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Turn then push. Two contacts",
+      "events": [
+        {
+          "t": 0.25,
+          "name": "contact",
+          "args": {}
+        },
+        {
+          "t": 0.48333,
+          "name": "knob_turned",
+          "args": {}
+        },
+        {
+          "t": 0.63333,
+          "name": "door_moves",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "door_pull": {
+      "animation": "door_pull",
+      "actions": {
+        "rig": "door_pull@arms_base"
+      },
+      "frames": [
+        1,
+        50
+      ],
+      "length": 0.81667,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Grip on the handle, body steps back",
+      "events": [
+        {
+          "t": 0.25,
+          "name": "contact",
+          "args": {}
+        },
+        {
+          "t": 0.41667,
+          "name": "door_moves",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "door_push": {
+      "animation": "door_push",
+      "actions": {
+        "rig": "door_push@arms_base"
+      },
+      "frames": [
+        1,
+        45
+      ],
+      "length": 0.73333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Flat palm on the door",
+      "events": [
+        {
+          "t": 0.25,
+          "name": "contact",
+          "args": {}
+        },
+        {
+          "t": 0.33333,
+          "name": "door_moves",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "finisher_jaw_rip": {
+      "animation": "finisher_jaw_rip",
+      "actions": {
+        "rig": "finisher_jaw_rip@arms_base"
+      },
+      "frames": [
+        1,
+        150
+      ],
+      "length": 2.48333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Two-hand grab on the jaw. Needs SK.hand_r and SK.hand_l contact events for the victim rig",
+      "events": [
+        {
+          "t": 0.61667,
+          "name": "grab",
+          "args": {}
+        },
+        {
+          "t": 1.36667,
+          "name": "tear_start",
+          "args": {}
+        },
+        {
+          "t": 1.86667,
+          "name": "tear_done",
+          "args": {}
+        },
+        {
+          "t": 2.23333,
+          "name": "release",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "finisher_neck_grab": {
+      "animation": "finisher_neck_grab",
+      "actions": {
+        "rig": "finisher_neck_grab@arms_base"
+      },
+      "frames": [
+        1,
+        120
+      ],
+      "length": 1.98333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "One-hand grab and hold",
+      "events": [
+        {
+          "t": 0.6,
+          "name": "grab",
+          "args": {}
+        },
+        {
+          "t": 1.68333,
+          "name": "release",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "finisher_stomp": {
+      "animation": "finisher_stomp",
+      "actions": {
+        "rig": "finisher_stomp@arms_base"
+      },
+      "frames": [
+        1,
+        90
+      ],
+      "length": 1.48333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Camera only, hands brace",
+      "events": [
+        {
+          "t": 0.81667,
+          "name": "hit",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "hurt_heavy": {
+      "animation": "hurt_heavy",
+      "actions": {
+        "rig": "hurt_heavy@arms_base"
+      },
+      "frames": [
+        1,
+        45
+      ],
+      "length": 0.73333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "hurt_light": {
+      "animation": "hurt_light",
+      "actions": {
+        "rig": "hurt_light@arms_base"
+      },
+      "frames": [
+        1,
+        24
+      ],
+      "length": 0.38333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Additive-friendly flinch",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "jump_loop": {
+      "animation": "jump_loop",
+      "actions": {
+        "rig": "jump_loop@arms_base"
+      },
+      "frames": [
+        1,
+        30
+      ],
+      "length": 0.48333,
+      "loop": "LINEAR",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Airborne hold",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "jump_start": {
+      "animation": "jump_start",
+      "actions": {
+        "rig": "jump_start@arms_base"
+      },
+      "frames": [
+        1,
+        12
+      ],
+      "length": 0.18333,
+      "loop": "NONE",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "jump_loop",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "ladder_dismount": {
+      "animation": "ladder_dismount",
+      "actions": {
+        "rig": "ladder_dismount@arms_base"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "ladder_down": {
+      "animation": "ladder_down",
+      "actions": {
+        "rig": "ladder_down@arms_base"
+      },
+      "frames": [
+        1,
+        60
+      ],
+      "length": 0.98333,
+      "loop": "LINEAR",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.05,
+          "name": "hand_r_grab",
+          "args": {}
+        },
+        {
+          "t": 0.53333,
+          "name": "hand_l_grab",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "ladder_mount": {
+      "animation": "ladder_mount",
+      "actions": {
+        "rig": "ladder_mount@arms_base"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "ladder_up",
+      "stub": true,
+      "notes": "Grab the first rung from the ground",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "ladder_up": {
+      "animation": "ladder_up",
+      "actions": {
+        "rig": "ladder_up@arms_base"
+      },
+      "frames": [
+        1,
+        60
+      ],
+      "length": 0.98333,
+      "loop": "LINEAR",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "One rung per half cycle. Hand contact on the beat",
+      "events": [
+        {
+          "t": 0.05,
+          "name": "hand_r_grab",
+          "args": {}
+        },
+        {
+          "t": 0.53333,
+          "name": "hand_l_grab",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "land_hard": {
+      "animation": "land_hard",
+      "actions": {
+        "rig": "land_hard@arms_base"
+      },
+      "frames": [
+        1,
+        34
+      ],
+      "length": 0.55,
+      "loop": "NONE",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Hands catch the ground",
+      "events": [
+        {
+          "t": 0.13333,
+          "name": "hand_plant",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "land_soft": {
+      "animation": "land_soft",
+      "actions": {
+        "rig": "land_soft@arms_base"
+      },
+      "frames": [
+        1,
+        18
+      ],
+      "length": 0.28333,
+      "loop": "NONE",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "lever_pull": {
+      "animation": "lever_pull",
+      "actions": {
+        "rig": "lever_pull@arms_base"
+      },
+      "frames": [
+        1,
+        50
+      ],
+      "length": 0.81667,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "",
+      "events": [
+        {
+          "t": 0.25,
+          "name": "contact",
+          "args": {}
+        },
+        {
+          "t": 0.41667,
+          "name": "lever_moves",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "pickup_large": {
+      "animation": "pickup_large",
+      "actions": {
+        "rig": "pickup_large@arms_base"
+      },
+      "frames": [
+        1,
+        60
+      ],
+      "length": 0.98333,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Two hands",
+      "events": [
+        {
+          "t": 0.53333,
+          "name": "grab",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "pickup_small": {
+      "animation": "pickup_small",
+      "actions": {
+        "rig": "pickup_small@arms_base"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Object attaches to SK.hand_r on the event",
+      "events": [
+        {
+          "t": 0.35,
+          "name": "grab",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "shove": {
+      "animation": "shove",
+      "actions": {
+        "rig": "shove@arms_base"
+      },
+      "frames": [
+        1,
+        28
+      ],
+      "length": 0.45,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Both palms forward",
+      "events": [
+        {
+          "t": 0.2,
+          "name": "hit",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    },
+    "unarmed_idle": {
+      "animation": "unarmed_idle",
+      "actions": {
+        "rig": "unarmed_idle@arms_base"
+      },
+      "frames": [
+        1,
+        120
+      ],
+      "length": 1.98333,
+      "loop": "LINEAR",
+      "category": "POSE",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Empty hands, relaxed",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "unarmed_run": {
+      "animation": "unarmed_run",
+      "actions": {
+        "rig": "unarmed_run@arms_base"
+      },
+      "frames": [
+        1,
+        28
+      ],
+      "length": 0.45,
+      "loop": "LINEAR",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "unarmed_sprint": {
+      "animation": "unarmed_sprint",
+      "actions": {
+        "rig": "unarmed_sprint@arms_base"
+      },
+      "frames": [
+        1,
+        24
+      ],
+      "length": 0.38333,
+      "loop": "LINEAR",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "Arms pumping, wide",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "unarmed_walk": {
+      "animation": "unarmed_walk",
+      "actions": {
+        "rig": "unarmed_walk@arms_base"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "LINEAR",
+      "category": "LOCO",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "",
+      "stub": true,
+      "notes": "",
+      "events": [],
+      "sounds": [],
+      "attach": []
+    },
+    "vault_low": {
+      "animation": "vault_low",
+      "actions": {
+        "rig": "vault_low@arms_base"
+      },
+      "frames": [
+        1,
+        40
+      ],
+      "length": 0.65,
+      "loop": "NONE",
+      "category": "CONTEXT",
+      "blend_in": 0.08,
+      "blend_out": 0.1,
+      "next": "unarmed_idle",
+      "stub": true,
+      "notes": "Hand plants on the obstacle",
+      "events": [
+        {
+          "t": 0.23333,
+          "name": "hand_plant",
+          "args": {}
+        },
+        {
+          "t": 0.41667,
+          "name": "hand_release",
+          "args": {}
+        }
+      ],
+      "sounds": [],
+      "attach": []
+    }
+  },
+  "notes": "",
+  "warnings": [
+    "no animated clips for 'arms_base' yet - stubs only",
+    "stub, not animated yet: button_press",
+    "stub, not animated yet: climb_ledge",
+    "stub, not animated yet: death",
+    "stub, not animated yet: door_knob",
+    "stub, not animated yet: door_pull",
+    "stub, not animated yet: door_push",
+    "stub, not animated yet: finisher_jaw_rip",
+    "stub, not animated yet: finisher_neck_grab",
+    "stub, not animated yet: finisher_stomp",
+    "stub, not animated yet: hurt_heavy",
+    "stub, not animated yet: hurt_light",
+    "stub, not animated yet: jump_loop",
+    "stub, not animated yet: jump_start",
+    "stub, not animated yet: ladder_dismount",
+    "stub, not animated yet: ladder_down",
+    "stub, not animated yet: ladder_mount",
+    "stub, not animated yet: ladder_up",
+    "stub, not animated yet: land_hard",
+    "stub, not animated yet: land_soft",
+    "stub, not animated yet: lever_pull",
+    "stub, not animated yet: pickup_large",
+    "stub, not animated yet: pickup_small",
+    "stub, not animated yet: shove",
+    "stub, not animated yet: unarmed_idle",
+    "stub, not animated yet: unarmed_run",
+    "stub, not animated yet: unarmed_sprint",
+    "stub, not animated yet: unarmed_walk",
+    "stub, not animated yet: vault_low"
+  ]
+}
