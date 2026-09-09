@@ -5,3 +5,7 @@
 # local archives
 *.rar
 *.zip
+
+# python bytecode from the Blender add-on
+__pycache__/
+*.pyc
