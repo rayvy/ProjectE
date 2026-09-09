@@ -26,7 +26,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg", "res://addons/pf_viewmodel/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg")
 
 [physics]
 
@@ -35,7 +35,3 @@ enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg", "res://addons/pf_v
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-
-[audio]
-
-buses/default_bus_layout="res://default_bus_layout.tres"
